@@ -126,14 +126,15 @@ SMmegaind:
 Possible entities:
 ```yaml
 opto_cnt_rst_1: -> opto_cnt_rst_4:  (type: button)
-dac_1: -> dac_4:  (type: number)
+0_10_u_out_1: -> 0_10_u_out_4:  (type: number)
+4_20_i_out_1: -> 4_20_i_out_4:  (type: number)
 od_1: -> od_4:  (type: number)
-0_10_u_1: -> 0_10_u_4:  (type: sensor)
-4_20_i_1: -> 4_20_i_4:  (type: sensor)
+0_10_u_in_1: -> 0_10_u_in_4:  (type: sensor)
+4_20_i_in_1: -> 4_20_i_in_4:  (type: sensor)
 opto_1: -> opto_4:  (type: sensor)
 opto_cnt_1: -> opto_cnt_4:  (type: sensor)
 owb_temp_1: -> owb_temp_16:  (type: sensor)
-pm10_u_1: -> pm10_u_4:  (type: sensor)
+pm10_u_in_1: -> pm10_u_in_4:  (type: sensor)
 led_1: -> led_4:  (type: switch)
 ```
 

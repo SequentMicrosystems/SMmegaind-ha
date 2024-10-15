@@ -15,21 +15,21 @@ SM_MAP = {
         }
     },
     "sensor":  {
-        "0_10_u": {
+        "0_10_u_in": {
                 "chan_no": 4,
                 "uom": "V",
                 "com": {
                     "get": "get0_10In",
                 },
         },
-        "pm10_u": {
+        "pm10_u_in": {
                 "chan_no": 4,
                 "uom": "V",
                 "com": {
                     "get": "getpmIn",
                 },
         },
-        "4_20_i": {
+        "4_20_i_in": {
                 "chan_no": 4,
                 "uom": "mA",
                 "com": {
@@ -71,21 +71,27 @@ SM_MAP = {
         }
     },
     "number": {
-        "dac": {
+        "0_10_u_out": {
                 "chan_no": 4,
                 "uom": "V",
                 "min_value": 0.0,
                 "max_value": 10.0,
                 "step": 0.01,
                 "com": {
-                    #"get": "__NOGET__",
-                    "get": "getDacV",
-                    "set": "setDacV"
+                    "get": "get0_10Out",
+                    "set": "set0_10Out",
                 },
-                "icon": {
-                    "on": "mdi:flash-triangle",
-                    "off": "mdi:flash-triangle"
-                }
+        },
+        "4_20_i_out": {
+                "chan_no": 4,
+                "uom": "mA",
+                "min_value": 4.0,
+                "max_value": 20.0,
+                "step": 0.01,
+                "com": {
+                    "get": "get4_20Out",
+                    "set": "set4_20Out",
+                },
         },
         "od": {
                 "chan_no": 4,
