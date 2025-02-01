@@ -1,6 +1,6 @@
 # Sequent Microsystems Industrial Automation Home Assistant Integration
 
-Integrate [Industrial Automation](https://sequentmicrosystems.com/products/industrial-raspberry-pi?variant=46030010810620)
+Integrate [Industrial Automation](https://sequentmicrosystems.com/products/industrial-automation-for-raspberry-pi)
 seamlessly with Home Assistant, bringing all your custom functionality into the Home Assistant ecosystem for enhanced control, automation, and ease of use.
 
 
